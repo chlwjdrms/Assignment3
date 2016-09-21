@@ -1,0 +1,22 @@
+﻿Build started 2016-09-21 오후 9:47:12.
+     1>Project "c:\Users\최정근\documents\visual studio 2013\Projects\ConsoleApplication52\ConsoleApplication52\ConsoleApplication52.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\OpenGl\glfw-3.2.1.bin.WIN32\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Assignment.cpp
+         Assignment.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(2715): warning C4996: 'std::_Fill_n': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(2701) : see declaration of 'std::_Fill_n'
+                 c:\users\최정근\documents\visual studio 2013\projects\consoleapplication52\consoleapplication52\assignment.cpp(103) : see reference to function template instantiation '_OutIt std::fill_n<float*,int,float>(_OutIt,_Diff,const _Ty &)' being compiled
+                 with
+                 [
+                     _OutIt=float *
+         ,            _Diff=int
+         ,            _Ty=float
+                 ]
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\최정근\documents\visual studio 2013\Projects\ConsoleApplication52\Debug\ConsoleApplication52.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\OpenGl\glfw-3.2.1.bin.WIN32\lib-vc2013" opengl32.lib glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\최정근\documents\visual studio 2013\Projects\ConsoleApplication52\Debug\ConsoleApplication52.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\최정근\documents\visual studio 2013\Projects\ConsoleApplication52\Debug\ConsoleApplication52.lib" /MACHINE:X86 Debug\Assignment.obj
+         ConsoleApplication52.vcxproj -> c:\users\최정근\documents\visual studio 2013\Projects\ConsoleApplication52\Debug\ConsoleApplication52.exe
+     1>Done Building Project "c:\Users\최정근\documents\visual studio 2013\Projects\ConsoleApplication52\ConsoleApplication52\ConsoleApplication52.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.51
